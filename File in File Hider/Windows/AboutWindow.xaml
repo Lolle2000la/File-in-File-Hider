@@ -15,8 +15,8 @@
         </Grid.Background>
         <Image Source="/Icons/File-in-File-Hider.png" HorizontalAlignment="Left" Width="206" Margin="0,31,0,0"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="File in File Hider" VerticalAlignment="Top" Margin="220,59,0,0" FontSize="18" Foreground="White"/>
-        <TextBlock x:Name="textBox" Margin="0,88,22,43" TextWrapping="Wrap" HorizontalAlignment="Right" Width="170" Foreground="White"><Run Text="This Product is free to use."/><LineBreak/><Run Text="This Program is written in C#."/><Run Text="&#xA;"/><Run/><LineBreak/><Run Text="Code available at:"/><LineBreak/><Run/></TextBlock>
-        <TextBlock x:Name="LinkToWebSite" MouseDown="LinkToWebSite_MouseDown" HorizontalAlignment="Left" Margin="220,157,0,0" TextWrapping="Wrap" Text="Coming soon" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
+        <TextBlock x:Name="textBox" Margin="0,88,22,43" TextWrapping="Wrap" HorizontalAlignment="Right" Width="170" Foreground="White"><Run Text="Copyright (c) 2016 Lolle2000la"/><LineBreak/><Run/><LineBreak/><Run Text="Official Site"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="LinkToWebSite" MouseDown="LinkToWebSite_MouseDown" HorizontalAlignment="Left" Margin="220,135,0,0" TextWrapping="Wrap" Text="GitHub" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
         <TextBlock x:Name="CloseAbout" MouseDown="CloseAbout_MouseDown" HorizontalAlignment="Left" Margin="220,191,0,0" TextWrapping="Wrap" Text="Close" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
         <Rectangle Fill="#FF2D3C43" Stroke="#FF435762" MouseDown="Rectangle_MouseDown" Margin="0,0,0,215"/>
     </Grid>

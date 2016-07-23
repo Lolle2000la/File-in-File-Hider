@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Input;
 
 namespace File_in_File_Hider.Windows
@@ -15,7 +16,9 @@ namespace File_in_File_Hider.Windows
 
         private void LinkToWebSite_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("Not avaiable for now. Coming soon!", "Coming Soon");
+            Process browser = new Process();
+            browser.StartInfo.FileName = "https://github.com/Lolle2000la/File-in-File-Hider/";
+            browser.Start();
         }
 
         private void CloseAbout_MouseDown(object sender, MouseButtonEventArgs e)
