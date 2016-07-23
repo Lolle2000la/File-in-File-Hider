@@ -1,0 +1,49 @@
+﻿<Window x:Class="File_in_File_Hider.Windows.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_in_File_Hider.Windows"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="327" Width="486.5" ResizeMode="NoResize" Foreground="White">
+    <ScrollViewer>
+        <ScrollViewer.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF29363D" Offset="0"/>
+                <GradientStop Color="#FF455A65" Offset="1"/>
+            </LinearGradientBrush>
+        </ScrollViewer.Background>
+        <StackPanel Margin="5">
+            <TextBlock Text="How to use &quot;File in File Hider&quot;:" FontSize="24" FontWeight="Bold" FontFamily="Segoe UI Light"/>
+            <TextBlock>
+                <LineBreak/>
+                <Run FontSize="18" Text="1. Select the Host File"/><LineBreak/>
+                <Run Text="You must select a File in which you want to hide the other File."/><LineBreak/>
+                <Run Text="To do that paste the path of the File into the text field or press the &quot;...&quot;-Button"/><LineBreak/><LineBreak/>
+                <Run FontSize="18" Text="2. Select the Hiding File"/><LineBreak/><Run Text="To select the Hiding File you can repeat the last step for this."/><LineBreak/>
+                <Run/><LineBreak/>
+                <Run FontSize="18" Text="3.Select the Save Path for the Produced File"/><LineBreak/>
+                <Run Text="To select the Path of the Produced File you can use the &quot;...&quot;-button to select the "/><LineBreak/>
+                <Run Text="Path and the Name of the File"/><LineBreak/><Run/><LineBreak/><Run FontSize="18" Text="4. Press the &quot;Generate&quot;-Button"/><LineBreak/>
+                <Run FontSize="18"/>
+            </TextBlock>
+
+            <TextBlock FontSize="24" FontFamily="Segoe UI Light" Text="Other Functions:" FontWeight="Bold"/>
+            <TextBlock FontFamily="Segoe UI">
+                <LineBreak/>
+                <Run FontSize="18" Text="1. Clear"/><LineBreak/>
+                <Run Text="Clears ervery text field"/><LineBreak/><LineBreak/>
+                <Run Text="Command:"/><LineBreak/>
+                <Run Text="File > Clear"/><LineBreak/><LineBreak/>
+                <Run FontSize="18" Text="2. Exit"/><LineBreak/>
+                <Run Text="Closes the Application"/><LineBreak/><LineBreak/>
+                <Run Text="Command:"/><LineBreak/>
+                <Run Text="File > Exit"/><LineBreak/><LineBreak/>
+                <Run FontSize="18" Text="3. About"/><LineBreak/>
+                <Run Text="Show the &quot;About&quot;-Window"/><LineBreak/><LineBreak/>
+                <Run Text="Command:"/><LineBreak/>
+                <Run Text="Help > About"/>
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

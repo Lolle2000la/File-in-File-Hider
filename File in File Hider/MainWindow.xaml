@@ -1,0 +1,55 @@
+﻿<Window x:Class="File_in_File_Hider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_in_File_Hider"
+        mc:Ignorable="d"
+        Title="File in File Hider" 
+        Height="350.972" Width="566.176"
+        MinWidth="402" MinHeight="203" Background="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" Icon="Icons/mipmap-hdpi.ico">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF29363D" Offset="0"/>
+                <GradientStop Color="#FF455A65" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!--Menu of the Form-->
+        <Menu IsMainMenu="True" Height="19" VerticalAlignment="Top">
+            <MenuItem Header="_File" Foreground="White">
+                <MenuItem x:Name="mnuClear" Style="{StaticResource SubMenuItemStyle}" Foreground="Black" Header="_Clear" Click="Clear_Click"/>
+                <Separator/>
+                <MenuItem x:Name="mnuClose" Style="{StaticResource SubMenuItemStyle}" Foreground="Black" Header="_Exit" Click="Close_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Help" Foreground="White">
+                <MenuItem x:Name="mnuShowHelpWindow" Style="{StaticResource SubMenuItemStyle}" Foreground="Black" Header="_Help Window" Click="mnuShowHelpWindow_Click"/>
+                <Separator/>
+                <MenuItem x:Name="mnuShowAboutWindow" Style="{StaticResource SubMenuItemStyle}" Foreground="Black" Header="_About" Click="mnuShowAboutWindow_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <!--Controls for selecting the Host File-->
+        <TextBlock HorizontalAlignment="Left" Margin="10,24,0,0" TextWrapping="Wrap" Text="Host File:" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="HostFilePath" Width="Auto" Margin="101,24,32,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnHostFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,24,10,0" Height="18" Click="btnHostFilePath_Click" BorderBrush="#FF455A65" Background="#FF29363D"/>
+
+        <!--Controls for selecting the Hiding File-->
+        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Hiding File:" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="HidingFilePath" Width="Auto" Margin="101,47,32,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnHidingFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,47,10,0" Height="18" Click="btnHidingFilePath_Click"/>
+
+        <!--Controls for selecting the Hiding File-->
+        <TextBlock HorizontalAlignment="Left" Margin="10,95,0,0" TextWrapping="Wrap" Text="End File:" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="ProductedFilePath" Width="Auto" Margin="101,93,32,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnProductedFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,93,10,0" Height="18" Click="btnProductedFilePath_Click"/>
+
+        <Button x:Name="SubmitButton" Content="Generate" Margin="10,130,10,0" Height="24" VerticalAlignment="Top" Click="SubmitButton_Click"/>
+        <TextBlock Margin="10,159,10,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top"/>
+        <ScrollViewer Margin="10,180,10,35">
+            <TextBox x:Name="txtOutput" TextWrapping="Wrap" IsReadOnly="True"/>
+        </ScrollViewer>
+        
+        <Button x:Name="btnClearOoutput" Content="Clear Output" Margin="10,0,10,6" Click="btnClearOoutput_Click" Height="24" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
