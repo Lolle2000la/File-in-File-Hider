@@ -118,92 +118,92 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>_About</value>
+    <value>_Über File in File Hider</value>
     <comment>MainWindow &gt; Help &gt; About - MenuItem</comment>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>_Clear all</value>
+    <value>_Alles leeren</value>
     <comment>MainWindow &gt; File &gt; Clear - MenuItem</comment>
   </data>
   <data name="ClearOutput" xml:space="preserve">
-    <value>Clear Output</value>
+    <value>Output löschen</value>
     <comment>MainWindow &gt; Clear Output - Button</comment>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Close</value>
+    <value>Schließen</value>
     <comment>AboutWindow &gt; Close - TextBlock</comment>
   </data>
   <data name="Done" xml:space="preserve">
-    <value>Done!
+    <value>Fertig!
 
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
   <data name="EndFile" xml:space="preserve">
-    <value>End File:</value>
+    <value>End-Datei:</value>
     <comment>MainWindow &gt; End File: - TextBlock</comment>
   </data>
   <data name="ErrorOccured" xml:space="preserve">
-    <value>An Error Occured. </value>
+    <value>Ein Fehler ist aufgetreten. </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
   <data name="Exit" xml:space="preserve">
-    <value>_Exit</value>
+    <value>_Verlassen</value>
     <comment>MainWindow &gt; File &gt; Exit - MenuItem</comment>
   </data>
   <data name="File" xml:space="preserve">
-    <value>_File</value>
+    <value>_Datei</value>
     <comment>MainWindow &gt; File - MenuItem</comment>
   </data>
   <data name="FileExists" xml:space="preserve">
-    <value>File exists!!!
+    <value>Datei existiert schon!!!
 
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
   <data name="Generate" xml:space="preserve">
-    <value>Generate</value>
+    <value>Generieren</value>
     <comment>MainWindow &gt; Generate - Button</comment>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>_Help</value>
+    <value>_Hilfe</value>
     <comment>MainWindow &gt; Help - MenuItem</comment>
   </data>
   <data name="HelpWindowTitle" xml:space="preserve">
-    <value>Help</value>
+    <value>Hilfe</value>
     <comment>HelpWindow - Window</comment>
   </data>
   <data name="HidingFile" xml:space="preserve">
-    <value>Hiding File:</value>
+    <value>Versteckte Datei:</value>
     <comment>MainWindow &gt;Hiding File: - TextBlock</comment>
   </data>
   <data name="HostFile" xml:space="preserve">
-    <value>Host File:</value>
+    <value>Träger-Datei:</value>
     <comment>MainWindow &gt; Host File: - TextBlock</comment>
   </data>
   <data name="HowToUse" xml:space="preserve">
-    <value>How to use the "File in File Hider":</value>
+    <value>Wie man den "File in File Hider" benutzt(Englisch):</value>
     <comment>HelpWindow &gt; How to use - TextBlock</comment>
   </data>
   <data name="OfficialSide" xml:space="preserve">
-    <value>Official Side</value>
+    <value>Offizielle Seite</value>
     <comment>AboutWindow &gt; Official Side - TextBlock</comment>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output:</value>
+    <value>Ausgabe:</value>
     <comment>MainWindow &gt; Output: - TextBlock</comment>
   </data>
   <data name="Preparing" xml:space="preserve">
-    <value>Preparing...
+    <value>Bereitet den Prozess vor...
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
   <data name="ShowHelpWindow" xml:space="preserve">
-    <value>_Help Window</value>
+    <value>_Hilfe Fenster(Englisch)</value>
     <comment>MainWindow &gt; Help &gt; Help Window - MenuItem</comment>
   </data>
   <data name="Working" xml:space="preserve">
-    <value>Working...
+    <value>Arbeitet...
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>

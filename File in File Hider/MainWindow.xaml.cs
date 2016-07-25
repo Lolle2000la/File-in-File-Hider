@@ -53,14 +53,14 @@ namespace File_in_File_Hider
             if (SaveDialog.FileName != "")
                 ProductedFilePath.Text = SaveDialog.FileName;
         }
-        string DoneText = "Done!";
+        string DoneText = Properties.Resources.Done;
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text = txtOutput.Text + "Preparing...\n";
+            txtOutput.Text = txtOutput.Text + Properties.Resources.Preparing;
 
             if (System.IO.File.Exists(ProductedFilePath.Text))
             {
-                txtOutput.Text = txtOutput.Text + "File Exists!!!\n\n";
+                txtOutput.Text = txtOutput.Text + Properties.Resources.FileExists;
             }
             else
             {
@@ -81,12 +81,12 @@ namespace File_in_File_Hider
                 cmdProcess.BeginOutputReadLine();
                 cmdProcess.BeginErrorReadLine();
 
-                txtOutput.Text = txtOutput.Text + "Working...\n";
+                txtOutput.Text = txtOutput.Text + Properties.Resources.Working;
                 cmdProcess.StandardInput.WriteLine("copy /b \"{0}\" + \"{1}\" \"{2}\"", HostFilePath.Text, HidingFilePath.Text, ProductedFilePath.Text);
 
                 cmdProcess.StandardInput.WriteLine("exit");             //Execute exit.
                 txtOutput.Text = txtOutput.Text + DoneText + "\n\n";
-                DoneText = "Done!";
+                DoneText = Properties.Resources.Done;
                 cmdProcess.WaitForExit();
             }
         }
@@ -96,7 +96,7 @@ namespace File_in_File_Hider
         }
         private void cmd_Error(object sender, DataReceivedEventArgs e)
         {
-            DoneText = "An Error occured.\n" + e.Data;
+            DoneText = Properties.Resources.ErrorOccured + e.Data + "\n\n";
         }
 
         private void Clear_Click(object sender, RoutedEventArgs e)
@@ -104,6 +104,7 @@ namespace File_in_File_Hider
             HostFilePath.Text = "";
             HidingFilePath.Text = "";
             ProductedFilePath.Text = "";
+            txtOutput.Text = "";
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

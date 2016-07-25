@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_in_File_Hider.Windows"
+        xmlns:p="clr-namespace:File_in_File_Hider.Properties"
         mc:Ignorable="d"
         Title="AboutWindow" Height="234.454" Width="411.765" ResizeMode="NoResize" WindowStyle="None" MouseDown="Window_MouseDown">
     <Grid MouseUp="Grid_MouseUp">
@@ -15,9 +16,10 @@
         </Grid.Background>
         <Image Source="/Icons/File-in-File-Hider.png" HorizontalAlignment="Left" Width="206" Margin="0,31,0,0"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="File in File Hider" VerticalAlignment="Top" Margin="220,59,0,0" FontSize="18" Foreground="White"/>
-        <TextBlock x:Name="textBox" Margin="0,88,22,43" TextWrapping="Wrap" HorizontalAlignment="Right" Width="170" Foreground="White"><Run Text="Copyright (c) 2016 Lolle2000la"/><LineBreak/><Run/><LineBreak/><Run Text="Official Site"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="textBox" Margin="0,88,22,124" TextWrapping="Wrap" HorizontalAlignment="Right" Width="170" Foreground="White">Copyright (c) 2016 Lolle2000la</TextBlock>
         <TextBlock x:Name="LinkToWebSite" MouseDown="LinkToWebSite_MouseDown" HorizontalAlignment="Left" Margin="220,135,0,0" TextWrapping="Wrap" Text="GitHub" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
-        <TextBlock x:Name="CloseAbout" MouseDown="CloseAbout_MouseDown" HorizontalAlignment="Left" Margin="220,191,0,0" TextWrapping="Wrap" Text="Close" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
+        <TextBlock x:Name="CloseAbout" MouseDown="CloseAbout_MouseDown" HorizontalAlignment="Left" Margin="220,191,0,0" TextWrapping="Wrap" Text="{x:Static p:Resources.Close}" VerticalAlignment="Top" Width="170" Foreground="#FF040EE0" TextDecorations="Underline"/>
         <Rectangle Fill="#FF2D3C43" Stroke="#FF435762" MouseDown="Rectangle_MouseDown" Margin="0,0,0,215"/>
+        <TextBlock Margin="220,119,22,0" TextWrapping="Wrap" Text="{x:Static p:Resources.OfficialSide}" VerticalAlignment="Top"/>
     </Grid>
 </Window>
