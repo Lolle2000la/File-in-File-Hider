@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using File_in_File_Hider.Windows;
 
 namespace File_in_File_Hider
 {
@@ -23,6 +24,8 @@ namespace File_in_File_Hider
     {
         public MainWindow()
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture =
+            new System.Globalization.CultureInfo(Properties.Settings.Default.Language);
             InitializeComponent();
             
         }
@@ -114,19 +117,31 @@ namespace File_in_File_Hider
 
         private void mnuShowHelpWindow_Click(object sender, RoutedEventArgs e)
         {
-            Windows.HelpWindow helpWindow = new Windows.HelpWindow();
+            HelpWindow helpWindow = new HelpWindow();
             helpWindow.Show();
         }
 
         private void mnuShowAboutWindow_Click(object sender, RoutedEventArgs e)
         {
-            Windows.AboutWindow aboutWindow = new Windows.AboutWindow();
+            AboutWindow aboutWindow = new AboutWindow();
             aboutWindow.Show();
         }
 
         private void btnClearOoutput_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text = "";
+        }
+
+        private void mnuLanguage_Click(object sender, RoutedEventArgs e)
+        {
+            LanguageWindow languageWindow = new LanguageWindow();
+            languageWindow.LanguageChanged += languageWindow_languageChanged;
+            languageWindow.Show();
+        }
+        private void languageWindow_languageChanged(object sender, EventArgs e)
+        {
+            this.UpdateLayout();
+            this.UpdateDefaultStyle();
         }
     }
 }

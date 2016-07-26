@@ -117,9 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Abort" xml:space="preserve">
+    <value>Abort</value>
+    <comment>LanguageWindow &gt; Abort - Button</comment>
+  </data>
   <data name="About" xml:space="preserve">
     <value>_About</value>
     <comment>MainWindow &gt; Help &gt; About - MenuItem</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>LanguageWindow &gt; Apply - Button</comment>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese Simplified (zh-Hans)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
   </data>
   <data name="Clear" xml:space="preserve">
     <value>_Clear all</value>
@@ -143,6 +155,10 @@
     <value>End File:</value>
     <comment>MainWindow &gt; End File: - TextBlock</comment>
   </data>
+  <data name="English" xml:space="preserve">
+    <value>English (en)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
+  </data>
   <data name="ErrorOccured" xml:space="preserve">
     <value>An Error Occured. </value>
     <comment>MainWindow &gt; Output - Code</comment>
@@ -161,9 +177,17 @@
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
+  <data name="French" xml:space="preserve">
+    <value>French (fr)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generate</value>
     <comment>MainWindow &gt; Generate - Button</comment>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>German (de-DE)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
   </data>
   <data name="Help" xml:space="preserve">
     <value>_Help</value>
@@ -185,9 +209,25 @@
     <value>How to use the "File in File Hider":</value>
     <comment>HelpWindow &gt; How to use - TextBlock</comment>
   </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>Japanese (ja)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+    <comment>LanguageWindow &gt;Title - Window</comment>
+  </data>
+  <data name="LanguageWindowText" xml:space="preserve">
+    <value>Select your language from the available Languages down below:</value>
+    <comment>LanguageWindow &gt; LanguageWindowText &gt; TextBlock</comment>
+  </data>
   <data name="OfficialSide" xml:space="preserve">
     <value>Official Side</value>
     <comment>AboutWindow &gt; Official Side - TextBlock</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment>LanguageWindow &gt; Ok - Button</comment>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output:</value>
@@ -198,9 +238,21 @@
 </value>
     <comment>MainWindow &gt; Output - Code</comment>
   </data>
+  <data name="RestartWarning" xml:space="preserve">
+    <value>Your changes will be active after a restart!!!</value>
+    <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
+  </data>
+  <data name="SetLanguage" xml:space="preserve">
+    <value>Select Language</value>
+    <comment>MainWindow &gt; File &gt; Set Language - MenuItem</comment>
+  </data>
   <data name="ShowHelpWindow" xml:space="preserve">
     <value>_Help Window</value>
     <comment>MainWindow &gt; Help &gt; Help Window - MenuItem</comment>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanish (es)</value>
+    <comment>LanguageWindow &gt; ListBox</comment>
   </data>
   <data name="Working" xml:space="preserve">
     <value>Working...

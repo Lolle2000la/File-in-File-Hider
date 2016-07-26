@@ -19,11 +19,16 @@
         <!--Menu of the Form-->
         <Menu IsMainMenu="True" Height="19" VerticalAlignment="Top">
             <MenuItem Header="{x:Static p:Resources.File}" Foreground="White">
-                <MenuItem x:Name="mnuClear" Style="{StaticResource SubMenuItemStyle}" Foreground="White" Header="{x:Static p:Resources.Clear}" Click="Clear_Click"/>
+                <MenuItem x:Name="mnuClear" Style="{StaticResource SubMenuItemStyle}" Foreground="White"
+                          Header="{x:Static p:Resources.Clear}" Click="Clear_Click"/>
+                
+                <MenuItem x:Name="mnuLanguage" Style="{StaticResource SubMenuItemStyle}" Foreground="White"
+                          Header="{x:Static p:Resources.SetLanguage}" Click="mnuLanguage_Click"/>
                 <Separator/>
-                <MenuItem x:Name="mnuClose" Style="{StaticResource SubMenuItemStyle}" Foreground="White" Header="{x:Static p:Resources.Exit}" Click="Close_Click"/>
+                <MenuItem x:Name="mnuClose" Style="{StaticResource SubMenuItemStyle}" Foreground="White"
+                          Header="{x:Static p:Resources.Exit}" Click="Close_Click"/>
             </MenuItem>
-            <MenuItem Header="{x:Static p:Resources.Help}" Foreground="White">
+            <MenuItem Header="_?" Foreground="White">
                 <MenuItem x:Name="mnuShowHelpWindow" Style="{StaticResource SubMenuItemStyle}" Foreground="White" Header="{x:Static p:Resources.ShowHelpWindow}" Click="mnuShowHelpWindow_Click"/>
                 <Separator/>
                 <MenuItem x:Name="mnuShowAboutWindow" Style="{StaticResource SubMenuItemStyle}" Foreground="White" Header="{x:Static p:Resources.About}" Click="mnuShowAboutWindow_Click"/>

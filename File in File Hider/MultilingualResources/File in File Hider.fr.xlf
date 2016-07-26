@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr" original="FILE IN FILE HIDER/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="FILE IN FILE HIDER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>_About</source>
+          <target state="translated">_sur</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Help &gt; About - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="Clear" translate="yes" xml:space="preserve">
+          <source>_Clear all</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tous les _Clear</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; File &gt; Clear - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="ClearOutput" translate="yes" xml:space="preserve">
+          <source>Clear Output</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortie claire</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Clear Output - Button</note>
+        </trans-unit>
+        <trans-unit id="Close" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Fermer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutWindow &gt; Close - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="Done" translate="yes" xml:space="preserve">
+          <source>Done!
+
+</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fait ! 
+ 
+</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
+        </trans-unit>
+        <trans-unit id="EndFile" translate="yes" xml:space="preserve">
+          <source>End File:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fin de fichier :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; End File: - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="ErrorOccured" translate="yes" xml:space="preserve">
+          <source>An Error Occured. </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Une erreur s’est produite. </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
+        </trans-unit>
+        <trans-unit id="Exit" translate="yes" xml:space="preserve">
+          <source>_Exit</source>
+          <target state="translated">_Sortie</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; File &gt; Exit - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="File" translate="yes" xml:space="preserve">
+          <source>_File</source>
+          <target state="translated">_Fichier</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; File - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="FileExists" translate="yes" xml:space="preserve">
+          <source>File exists!!!
+
+</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fichier existe !!! 
+ 
+</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
+        </trans-unit>
+        <trans-unit id="Generate" translate="yes" xml:space="preserve">
+          <source>Generate</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Générer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Generate - Button</note>
+        </trans-unit>
+        <trans-unit id="Help" translate="yes" xml:space="preserve">
+          <source>_Help</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">_?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Help - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="HelpWindowTitle" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aide</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">HelpWindow - Window</note>
+        </trans-unit>
+        <trans-unit id="HidingFile" translate="yes" xml:space="preserve">
+          <source>Hiding File:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Masquage de fichier :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt;Hiding File: - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="HostFile" translate="yes" xml:space="preserve">
+          <source>Host File:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fichier host :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Host File: - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="HowToUse" translate="yes" xml:space="preserve">
+          <source>How to use the "File in File Hider":</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Comment utiliser le « fichier en fichier Hider » :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">HelpWindow &gt; How to use - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="OfficialSide" translate="yes" xml:space="preserve">
+          <source>Official Side</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Côté officiel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutWindow &gt; Official Side - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="Output" translate="yes" xml:space="preserve">
+          <source>Output:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortie :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output: - TextBlock</note>
+        </trans-unit>
+        <trans-unit id="Preparing" translate="yes" xml:space="preserve">
+          <source>Preparing...
+</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Préparation... 
+</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
+        </trans-unit>
+        <trans-unit id="ShowHelpWindow" translate="yes" xml:space="preserve">
+          <source>_Help Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">_Help fenêtre</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Help &gt; Help Window - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="Working" translate="yes" xml:space="preserve">
+          <source>Working...
+</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Travail... 
+</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
+        </trans-unit>
+        <trans-unit id="SetLanguage" translate="yes" xml:space="preserve">
+          <source>Select Language</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Définir la langue</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; File &gt; Set Language - MenuItem</note>
+        </trans-unit>
+        <trans-unit id="Language" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Langue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt;Title - Window</note>
+        </trans-unit>
+        <trans-unit id="LanguageWindowText" translate="yes" xml:space="preserve">
+          <source>Select your language from the available Languages down below:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sélectionnez votre langue de langues disponibles vers le bas dessous </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; LanguageWindowText &gt; TextBlock</note>
+        </trans-unit>
+        <trans-unit id="Chinese" translate="yes" xml:space="preserve">
+          <source>Chinese Simplified (zh-Hans)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chinois simplifié (siZH)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="English" translate="yes" xml:space="preserve">
+          <source>English (en)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anglais (en)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="French" translate="yes" xml:space="preserve">
+          <source>French (fr)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Français (fr)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="German" translate="yes" xml:space="preserve">
+          <source>German (de-DE)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Allemand (de-DE)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="Japanese" translate="yes" xml:space="preserve">
+          <source>Japanese (ja)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Japonais (ja)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="Spanish" translate="yes" xml:space="preserve">
+          <source>Spanish (es)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Espagnol (es)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; ListBox</note>
+        </trans-unit>
+        <trans-unit id="Abort" translate="yes" xml:space="preserve">
+          <source>Abort</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Abandonner</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; Abort - Button</note>
+        </trans-unit>
+        <trans-unit id="Apply" translate="yes" xml:space="preserve">
+          <source>Apply</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Appliquer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; Apply - Button</note>
+        </trans-unit>
+        <trans-unit id="Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">OK</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; Ok - Button</note>
+        </trans-unit>
+        <trans-unit id="RestartWarning" translate="yes" xml:space="preserve">
+          <source>Your changes will be active after a restart!!!</source>
+          <target state="new">Your changes will be active after a restart!!!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; RestartWarnign - TextBlock</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

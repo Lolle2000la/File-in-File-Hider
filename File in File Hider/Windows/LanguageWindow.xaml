@@ -1,0 +1,33 @@
+﻿<Window x:Class="File_in_File_Hider.Windows.LanguageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_in_File_Hider.Windows"
+        xmlns:p="clr-namespace:File_in_File_Hider.Properties"
+        mc:Ignorable="d"
+        Title="{x:Static p:Resources.Language}" Height="253.003" MaxHeight="253.003" Width="480.157" SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <StackPanel.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF29363D" Offset="0"/>
+                <GradientStop Color="#FF455A65" Offset="1"/>
+            </LinearGradientBrush>
+        </StackPanel.Background>
+        <TextBlock Text="{x:Static p:Resources.LanguageWindowText}" Padding="5,5,5,0"/>
+        <ListBox x:Name="lstLanguages" Height="125" BorderBrush="#FF455A65" Foreground="White" Margin="10" Background="#FF29363D" SelectionChanged="lstLanguages_SelectionChanged">
+            <ListBoxItem Content="{x:Static p:Resources.English}"/>
+            <ListBoxItem Content="{x:Static p:Resources.German}"/>
+            <ListBoxItem Content="{x:Static p:Resources.Spanish}"/>
+            <ListBoxItem Content="{x:Static p:Resources.Chinese}"/>
+            <ListBoxItem Content="{x:Static p:Resources.French}"/>
+            <ListBoxItem Content="{x:Static p:Resources.Japanese}"/>
+        </ListBox>
+        <TextBlock Visibility="Hidden" Name="txtRestartWarning" Foreground="Red" Text="{x:Static p:Resources.RestartWarning}"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="btnOK" Padding="5" Margin="5" Content="{x:Static p:Resources.Ok}" Click="btnOK_Click"/>
+            <Button Name="btnAbort" Padding="5" Margin="5" Content="{x:Static p:Resources.Abort}" Click="btnAbort_Click"/>
+            <Button Name="btnApply" Padding="5" Margin="5" Content="{x:Static p:Resources.Apply}" Click="btnApply_Click" IsEnabled="False"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
