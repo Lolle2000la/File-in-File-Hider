@@ -150,4 +150,8 @@
     <value>确定</value>
     <comment>LanguageWindow &gt; Ok - Button</comment>
   </data>
+  <data name="RestartWarning" xml:space="preserve">
+    <value>重新启动后，您的更改将会积极!!!</value>
+    <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
+  </data>
 </root>

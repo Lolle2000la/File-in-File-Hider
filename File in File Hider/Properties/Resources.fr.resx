@@ -150,4 +150,8 @@
     <value>OK</value>
     <comment>LanguageWindow &gt; Ok - Button</comment>
   </data>
+  <data name="RestartWarning" xml:space="preserve">
+    <value>Vos modifications seront actifs après un redémarrage !!!</value>
+    <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
+  </data>
 </root>

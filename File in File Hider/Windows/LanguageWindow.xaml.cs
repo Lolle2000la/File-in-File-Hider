@@ -24,98 +24,109 @@ namespace File_in_File_Hider.Windows
         public LanguageWindow()
         {
             InitializeComponent();
-            switch (System.Threading.Thread.CurrentThread.CurrentUICulture.ToString())
+            switch (System.Threading.Thread.CurrentThread.CurrentUICulture.ToString()) // Checks the CurrentUICulture
             {
                 case "en":
-                    lstLanguages.SelectedIndex = 0;
+                    lstLanguages.SelectedIndex = 0; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
 
                 case "de":
-                    lstLanguages.SelectedIndex = 1;
+                    lstLanguages.SelectedIndex = 1; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
 
                 case "es":
-                    lstLanguages.SelectedIndex = 2;
+                    lstLanguages.SelectedIndex = 2; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
 
                 case "zh-Hans":
-                    lstLanguages.SelectedIndex = 3;
+                    lstLanguages.SelectedIndex = 3; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
 
                 case "fr":
-                    lstLanguages.SelectedIndex = 4;
+                    lstLanguages.SelectedIndex = 4; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
 
                 case "ja":
-                    lstLanguages.SelectedIndex = 5;
+                    lstLanguages.SelectedIndex = 5; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
+                    break;
+
+                default:
+                    lstLanguages.SelectedIndex = 0; // Sets lstLanguage.SelectedIndex
+                    btnApply.IsEnabled = false; // Disables the HideWindow
                     break;
             }
         }
 
         private void btnAbort_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            this.Hide(); // Hides the Window
         }
 
         private void btnApply_Click(object sender, RoutedEventArgs e)
         {
-            btnApply.IsEnabled = false;
-            txtRestartWarning.Visibility = Visibility.Visible;
-                switch (lstLanguages.SelectedIndex)
+            btnApply.IsEnabled = false; // Disables the HideWindow
+            txtRestartWarning.Visibility = Visibility.Visible; // Makes the RestartWarning visible
+                switch (lstLanguages.SelectedIndex) // Checks Selected Language
                 {
                     case 0:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("en");
-                        Properties.Settings.Default.Language = "en";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("en"); // Sets UICulture
+                        Properties.Settings.Default.Language = "en"; // Sets the Language Setting
+                        Properties.Settings.Default.Save(); // Saves the Settings
                         break;
 
                     case 1:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("de");
-                        Properties.Settings.Default.Language = "de";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("de"); // Sets UICulture
+                        Properties.Settings.Default.Language = "de"; // Sets the Language Setting
+                        Properties.Settings.Default.Save(); // Saves the Settings
                         break;
 
                     case 2:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("es");
-                        Properties.Settings.Default.Language = "es";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("es");// Sets UICulture
+                        Properties.Settings.Default.Language = "es"; // Sets the Language Setting
+                        Properties.Settings.Default.Save(); // Saves the Settings
                         break;
 
                     case 3:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("zh-Hans");
-                        Properties.Settings.Default.Language = "zh-Hans";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("zh-Hans"); // Sets UICulture
+                        Properties.Settings.Default.Language = "zh-Hans"; // Sets the Language Setting
+                        Properties.Settings.Default.Save(); // Saves the Settings
                         break;
 
                     case 4:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("fr");
-                        Properties.Settings.Default.Language = "fr";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("fr"); // Sets UICulture
+                        Properties.Settings.Default.Language = "fr"; // Sets the Language Setting
+                        Properties.Settings.Default.Save();// Saves the Settings
                         break;
 
                     case 5:
                         System.Threading.Thread.CurrentThread.CurrentUICulture =
-                            new System.Globalization.CultureInfo("ja");
-                        Properties.Settings.Default.Language = "ja";
-                        Properties.Settings.Default.Save();
+                            new System.Globalization.CultureInfo("ja"); // Sets UICulture
+                        Properties.Settings.Default.Language = "ja"; // Sets the Language Setting
+                        Properties.Settings.Default.Save(); // Saves the Settings
                         break;
                 }
-            LanguageChanged(sender, e);
+            LanguageChanged(sender, e); // Sends the LanguageChanged Event
         }
 
         private void lstLanguages_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            btnApply.IsEnabled = true;
+            btnApply.IsEnabled = true; // Enables btnApply
         }
 
         private void btnOK_Click(object sender, RoutedEventArgs e)
         {
-            switch (lstLanguages.SelectedIndex)
+            switch (lstLanguages.SelectedIndex) // Makes the same as Apply
             {
                 case 0:
                     System.Threading.Thread.CurrentThread.CurrentUICulture =
@@ -159,8 +170,8 @@ namespace File_in_File_Hider.Windows
                     Properties.Settings.Default.Save();
                     break;
             }
-            LanguageChanged(sender, e);
-            this.Hide();
+            LanguageChanged(sender, e); // Sends LanguageChanged Event
+            this.Hide(); // Hides the Window
         }
     }
 }

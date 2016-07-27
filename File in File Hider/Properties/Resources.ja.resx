@@ -150,4 +150,8 @@
     <value>OK</value>
     <comment>LanguageWindow &gt; Ok - Button</comment>
   </data>
+  <data name="RestartWarning" xml:space="preserve">
+    <value>変更は、再起動した後アクティブになります!</value>
+    <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
+  </data>
 </root>

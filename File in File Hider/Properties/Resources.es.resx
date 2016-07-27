@@ -150,4 +150,8 @@
     <value>Aceptar</value>
     <comment>LanguageWindow &gt; Ok - Button</comment>
   </data>
+  <data name="RestartWarning" xml:space="preserve">
+    <value>Los cambios estarán activos después de un recomenzar!!!!!!</value>
+    <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
+  </data>
 </root>

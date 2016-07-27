@@ -243,7 +243,7 @@
     <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
   </data>
   <data name="SetLanguage" xml:space="preserve">
-    <value>Sprache festlegen</value>
+    <value>_Sprache festlegen</value>
     <comment>MainWindow &gt; File &gt; Set Language - MenuItem</comment>
   </data>
   <data name="ShowHelpWindow" xml:space="preserve">

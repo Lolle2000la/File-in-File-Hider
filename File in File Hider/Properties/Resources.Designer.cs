@@ -336,7 +336,7 @@ namespace File_in_File_Hider.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Select Language ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die _Select Language ähnelt.
         /// </summary>
         public static string SetLanguage {
             get {

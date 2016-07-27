@@ -124,7 +124,7 @@
           <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Output - Code</note>
         </trans-unit>
         <trans-unit id="SetLanguage" translate="yes" xml:space="preserve">
-          <source>Select Language</source>
+          <source>_Select Language</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">语言设置</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; File &gt; Set Language - MenuItem</note>
@@ -187,7 +187,7 @@
         </trans-unit>
         <trans-unit id="RestartWarning" translate="yes" xml:space="preserve">
           <source>Your changes will be active after a restart!!!</source>
-          <target state="new">Your changes will be active after a restart!!!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重新启动后，您的更改将会积极!!!</target>
           <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; RestartWarnign - TextBlock</note>
         </trans-unit>
       </group>
