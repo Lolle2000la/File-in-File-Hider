@@ -190,6 +190,11 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Vos modifications seront actifs après un redémarrage !!!</target>
           <note from="MultilingualBuild" annotates="source" priority="2">LanguageWindow &gt; RestartWarnign - TextBlock</note>
         </trans-unit>
+        <trans-unit id="SetLanguageWindowText" translate="yes" xml:space="preserve">
+          <source>Select Language</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Sélectionnez une langue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainWindow &gt; Border &gt; Select Language - Button</note>
+        </trans-unit>
       </group>
     </body>
   </file>

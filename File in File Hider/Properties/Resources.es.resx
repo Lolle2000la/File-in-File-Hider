@@ -154,4 +154,8 @@
     <value>Los cambios estarán activos después de un recomenzar!!!!!!</value>
     <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
   </data>
+  <data name="SetLanguageWindowText" xml:space="preserve">
+    <value>Selección de idioma</value>
+    <comment>MainWindow &gt; Border &gt; Select Language - Button</comment>
+  </data>
 </root>

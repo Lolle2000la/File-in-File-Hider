@@ -4,30 +4,17 @@
              xmlns:local="clr-namespace:File_in_File_Hider"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="Button">
-            <Setter Property="BorderBrush" Value="#FF455A65"/>
-            <Setter Property="Background" Value="#FF29363D"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-
-        <Style TargetType="TextBox">
-            <Setter Property="BorderBrush" Value="#FF455A65"/>
-            <Setter Property="Background" Value="#FF29363D"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-
-        <Style TargetType="TextBlock">
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-
-        <Style TargetType="Menu">
-            <Setter Property="Background" Value="{x:Null}"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-        <Style TargetType="MenuItem" x:Key="SubMenuItemStyle">
-            <Setter Property="BorderBrush" Value="#FF455A65"/>
-            <Setter Property="Background" Value="#FF29363D"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+                <!-- Accent and AppTheme setting -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
