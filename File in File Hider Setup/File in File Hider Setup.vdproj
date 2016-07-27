@@ -196,11 +196,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_FFF1898CF61E8FD576F9A144D3DB2834"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -287,15 +282,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:File in File Hider"
-        "ProductCode" = "8:{D9F7B172-0849-4312-BAC9-384FC9AED65B}"
-        "PackageCode" = "8:{A88D1C12-2788-4C7E-84F2-FB0869BAF602}"
+        "ProductCode" = "8:{231324FA-EF81-4F08-BC7B-1FAD2F5078D1}"
+        "PackageCode" = "8:{33E9EF13-DC7C-4426-90D7-0B887A3BB3E8}"
         "UpgradeCode" = "8:{747DF974-BF08-4BB0-A0D3-1FB2683EE683}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.3.1"
+        "ProductVersion" = "8:0.3.2"
         "Manufacturer" = "8:Lolle2000la"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/Lolle2000la/File-in-File-Hider/issues"

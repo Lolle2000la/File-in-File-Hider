@@ -14,7 +14,7 @@
                 <GradientStop Color="#FF455A65" Offset="1"/>
             </LinearGradientBrush>
         </StackPanel.Background>
-        <TextBlock Text="{x:Static p:Resources.LanguageWindowText}" Padding="5,5,5,0"/>
+        <TextBlock Text="{x:Static p:Resources.LanguageWindowText}" TextWrapping="Wrap" Padding="5,5,5,0"/>
         <ListBox x:Name="lstLanguages" Height="125" BorderBrush="#FF455A65" Foreground="White" Margin="10" Background="#FF29363D" SelectionChanged="lstLanguages_SelectionChanged">
             <ListBoxItem Content="{x:Static p:Resources.English}"/>
             <ListBoxItem Content="{x:Static p:Resources.German}"/>
@@ -23,7 +23,7 @@
             <ListBoxItem Content="{x:Static p:Resources.French}"/>
             <ListBoxItem Content="{x:Static p:Resources.Japanese}"/>
         </ListBox>
-        <TextBlock Visibility="Hidden" Name="txtRestartWarning" Foreground="Red" Text="{x:Static p:Resources.RestartWarning}"/>
+        <TextBlock Visibility="Hidden" Name="txtRestartWarning" Foreground="Red" Text="{x:Static p:Resources.RestartWarning}" Margin="5,0,5,0"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Name="btnOK" Padding="5" Margin="5" Content="{x:Static p:Resources.Ok}" Click="btnOK_Click"/>
             <Button Name="btnAbort" Padding="5" Margin="5" Content="{x:Static p:Resources.Abort}" Click="btnAbort_Click"/>

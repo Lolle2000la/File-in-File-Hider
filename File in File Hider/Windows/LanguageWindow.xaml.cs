@@ -116,7 +116,7 @@ namespace File_in_File_Hider.Windows
                         Properties.Settings.Default.Save(); // Saves the Settings
                         break;
                 }
-            LanguageChanged(sender, e); // Sends the LanguageChanged Event
+
         }
 
         private void lstLanguages_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -170,7 +170,6 @@ namespace File_in_File_Hider.Windows
                     Properties.Settings.Default.Save();
                     break;
             }
-            LanguageChanged(sender, e); // Sends LanguageChanged Event
             this.Hide(); // Hides the Window
         }
     }
