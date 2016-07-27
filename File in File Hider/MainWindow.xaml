@@ -47,17 +47,17 @@
         <!--Controls for selecting the Host File-->
         <TextBlock HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" Text="{x:Static p:Resources.HostFile}" VerticalAlignment="Top" Width="131"/>
         <TextBox x:Name="HostFilePath" Width="Auto" Controls:TextBoxHelper.ClearTextButton="True" Margin="141,37,32,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnHostFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,37,10,0" Height="18" Click="btnHostFilePath_Click"/>
+        <Button x:Name="btnHostFilePath" Content="..." Style="{DynamicResource SquareButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,37,10,0" Height="26" Click="btnHostFilePath_Click" BorderThickness="1"/>
 
         <!--Controls for selecting the Hiding File-->
         <TextBlock HorizontalAlignment="Left" Margin="10,73,0,0" TextWrapping="Wrap" Text="{x:Static p:Resources.HidingFile}" VerticalAlignment="Top" Width="131"/>
         <TextBox x:Name="HidingFilePath" Width="Auto" Controls:TextBoxHelper.ClearTextButton="True" Margin="141,69,32,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnHidingFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,69,10,0" Height="18" Click="btnHidingFilePath_Click"/>
+        <Button x:Name="btnHidingFilePath" Content="..." Style="{DynamicResource SquareButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,69,10,0" Height="18" Click="btnHidingFilePath_Click" BorderThickness="1"/>
 
         <!--Controls for selecting the Hiding File-->
         <TextBlock HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" Text="{x:Static p:Resources.EndFile}" VerticalAlignment="Top" Width="131"/>
         <TextBox x:Name="ProductedFilePath" Width="Auto" Controls:TextBoxHelper.ClearTextButton="True" Margin="141,115,32,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnProductedFilePath" Content="..." HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,115,10,0" Height="18" Click="btnProductedFilePath_Click"/>
+        <Button x:Name="btnProductedFilePath" Content="..." Style="{DynamicResource SquareButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="18" Margin="0,115,10,0" Height="18" Click="btnProductedFilePath_Click" BorderThickness="1"/>
 
         <Button x:Name="SubmitButton" Content="{x:Static p:Resources.Generate}" Margin="10,152,10,0" Height="24" VerticalAlignment="Top" Click="SubmitButton_Click"/>
         <TextBlock Margin="10,181,10,0" TextWrapping="Wrap" Text="{x:Static p:Resources.Output}" VerticalAlignment="Top"/>
