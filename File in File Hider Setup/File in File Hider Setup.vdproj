@@ -380,7 +380,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:File in File Hider"
         "ProductCode" = "8:{AA05E384-40A6-49BE-9A04-77B5B11D7857}"
-        "PackageCode" = "8:{24998B71-FA06-4CFB-9502-652BF20ACB50}"
+        "PackageCode" = "8:{14262C23-2022-431F-9FA1-A2667D1B7018}"
         "UpgradeCode" = "8:{747DF974-BF08-4BB0-A0D3-1FB2683EE683}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
