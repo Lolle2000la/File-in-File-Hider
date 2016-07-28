@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="File in File Hider" 
         Height="402.289" Width="566.176"
-        MinWidth="402" MinHeight="203" Icon="Icons/IconWindowsMahApps_metro.png">
+        MinWidth="402" MinHeight="203" Icon="Icons/IconWindowsMahApps_metro.png" Closed="MetroWindow_Closed">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Name="Button1" Click="mnuLanguage_Click">

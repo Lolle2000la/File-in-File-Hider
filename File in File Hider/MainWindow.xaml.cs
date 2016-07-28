@@ -142,5 +142,10 @@ namespace File_in_File_Hider
             LanguageWindow languageWindow = new LanguageWindow();
             languageWindow.Show(); // Shows LanguageWindow
         }
+
+        private void MetroWindow_Closed(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
