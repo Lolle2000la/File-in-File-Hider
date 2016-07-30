@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MahApps.Metro.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,10 +18,8 @@ namespace File_in_File_Hider.Windows
     /// <summary>
     /// Interaktionslogik für LanguageWindow.xaml
     /// </summary>
-    public delegate void LanguageChangedEventHandler(object sender, EventArgs e);
-    public partial class LanguageWindow : Window
+    public partial class LanguageWindow : MetroWindow
     {
-        public event LanguageChangedEventHandler LanguageChanged;
         public LanguageWindow()
         {
             InitializeComponent();

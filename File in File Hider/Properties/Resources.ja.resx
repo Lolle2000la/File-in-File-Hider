@@ -154,4 +154,8 @@
     <value>変更は、再起動した後アクティブになります!</value>
     <comment>LanguageWindow &gt; RestartWarnign - TextBlock</comment>
   </data>
+  <data name="SetLanguageWindowText" xml:space="preserve">
+    <value>言語の選択</value>
+    <comment>MainWindow &gt; Border &gt; Select Language - Button</comment>
+  </data>
 </root>

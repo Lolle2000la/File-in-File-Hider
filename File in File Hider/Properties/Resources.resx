@@ -246,6 +246,10 @@
     <value>_Select Language</value>
     <comment>MainWindow &gt; File &gt; Set Language - MenuItem</comment>
   </data>
+  <data name="SetLanguageWindowText" xml:space="preserve">
+    <value>Select Language</value>
+    <comment>MainWindow &gt; Border &gt; Select Language - Button</comment>
+  </data>
   <data name="ShowHelpWindow" xml:space="preserve">
     <value>_Help Window</value>
     <comment>MainWindow &gt; Help &gt; Help Window - MenuItem</comment>

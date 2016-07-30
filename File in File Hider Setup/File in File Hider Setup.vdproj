@@ -15,8 +15,26 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_29DABB0145556510CD0A9BC9FDC7BB51"
+        "OwnerKey" = "8:_5BEF46422B3E55406E3105CEEF48B37F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_29DABB0145556510CD0A9BC9FDC7BB51"
+        "OwnerKey" = "8:_46E02AD2FA2D4B5184A7216BAD77B57A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_46E02AD2FA2D4B5184A7216BAD77B57A"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5BEF46422B3E55406E3105CEEF48B37F"
+        "OwnerKey" = "8:_46E02AD2FA2D4B5184A7216BAD77B57A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -47,6 +65,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_FFF1898CF61E8FD576F9A144D3DB2834"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_29DABB0145556510CD0A9BC9FDC7BB51"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5BEF46422B3E55406E3105CEEF48B37F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -149,6 +179,58 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_29DABB0145556510CD0A9BC9FDC7BB51"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                }
+            "SourcePath" = "8:System.Windows.Interactivity.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F60E5FA2C9A64DD0BBE335870AC98889"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5BEF46422B3E55406E3105CEEF48B37F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MahApps.Metro, Version=1.2.4.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                }
+            "SourcePath" = "8:MahApps.Metro.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F60E5FA2C9A64DD0BBE335870AC98889"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BFEB2528B3284717964C0613701531C3"
             {
             "SourcePath" = "8:C:\\Users\\Luca\\Desktop\\File in File Hider\\License.rtf"
@@ -196,11 +278,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_FFF1898CF61E8FD576F9A144D3DB2834"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -287,15 +364,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:File in File Hider"
-        "ProductCode" = "8:{C7E10E21-0B7E-4CA3-9B97-BD57E75F4436}"
-        "PackageCode" = "8:{57D6E275-E947-4EB2-9429-9D7C61A2CB7B}"
+        "ProductCode" = "8:{BE18AE22-8013-4E3C-B32A-943764815C42}"
+        "PackageCode" = "8:{B481B9F7-7B1A-4942-AB45-CBAF37403B02}"
         "UpgradeCode" = "8:{747DF974-BF08-4BB0-A0D3-1FB2683EE683}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.3.3"
+        "ProductVersion" = "8:0.4.1"
         "Manufacturer" = "8:Lolle2000la"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/Lolle2000la/File-in-File-Hider/issues"

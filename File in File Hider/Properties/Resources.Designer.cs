@@ -345,6 +345,15 @@ namespace File_in_File_Hider.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Select Language ähnelt.
+        /// </summary>
+        public static string SetLanguageWindowText {
+            get {
+                return ResourceManager.GetString("SetLanguageWindowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die _Help Window ähnelt.
         /// </summary>
         public static string ShowHelpWindow {
